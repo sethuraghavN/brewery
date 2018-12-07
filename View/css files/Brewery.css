@@ -1,0 +1,438 @@
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.background-parallax1 {
+	background-image: url("images/bgimage.jpg");
+	height: 650px;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	filter: brightness(50%);
+	widows: 1450px;;
+	margin-bottom: 2px;
+}
+.backgroundpage2
+{
+	background-image:url("images/bgsecond\ page.jpg");
+	min-height: 650px;
+	background-attachment:fixed;
+	background-repeat: no-repeat;
+	background-position:center;
+	background-size: cover;
+	filter: brightness(50%);
+	width:100%;
+	margin-bottom: 2px;
+
+}
+.background4{
+	padding : 30px;
+	background-image: url("images/liveshows.jpg") ,url("images/bgsecond\ page.jpg");
+	min-height:600px;
+	background-attachment:scroll,fixed;
+	background-repeat: no-repeat,no-repeat;
+	background-position:90% 45%,center;
+	background-size: 600px 500px, cover;
+	filter: brightness(50%);
+	width:30%,100%;
+	border: 1px solid black,none;
+	margin-bottom: 2px;
+}
+.background-parallax3{
+	padding: 0px;
+	margin: 0px;
+	background-image:url("images/page3.jpg");
+	min-height: 500px;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	filter: brightness(50%);
+	width: 1349px;
+}
+.background5{
+	background-image:url("images/craftedbeer.jpg");
+	min-height: 650px;
+	background-attachment:scroll;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size:cover;
+	filter: brightness(50%);
+	width: 100%;
+	margin-bottom: 2px;
+}
+
+.divbackground5{
+ padding: 80px;
+ text-align: center
+}
+
+.divaboutpage{
+	padding: 80px;
+	text-align: center;
+   }
+
+.divbackground6
+{
+	
+	padding: 150px;
+	text-align: left;
+	float: left;
+}
+
+
+ .divcontactus{
+	 font-family: 'Courier New', Courier, monospace;
+	 font-size: 50px;
+	 text-align: left;
+	 color:whitesmoke;
+	 
+ }
+ .backgroundpage7
+ {
+	 background-image:url("images/bgsecond\ page.jpg");
+	 min-height: 750px;
+	 background-attachment:fixed;
+	 background-repeat: no-repeat;
+	 background-position:center;
+	 background-size: cover;
+	 filter: brightness(50%);
+	 width:100%; 
+ }
+ .bookatable
+ {
+	 background-image:url("images/bgsecond\ page.jpg");
+	 min-height: 600px;
+	 background-attachment:fixed;
+	 background-repeat: no-repeat;
+	 background-position:center;
+	 background-size: cover;
+	 filter: brightness(50%);
+	 width:92.5%; 
+	 margin-bottom: 2px;
+	 padding-left: 100px;
+	 color: wheat;
+	 cursor: auto;
+ }
+ img {
+    position: absolute;
+    right: 50px;
+    top: 50px;
+	padding-right: 30px;
+	margin-right: 10px;
+}
+.submit
+ {
+	 background-image:url("images/pagethree.jpg");
+	 min-height: 650px;
+	 background-attachment:scroll;
+	 background-repeat: no-repeat;
+	 background-position: center;
+	 background-size: cover;
+	 filter: brightness(50%);
+	 width:100%; 
+	 text-align: center;
+	 font-size: 40px;
+	 font-style: italic;
+	 font-family: 'Courier New', Courier, monospace;
+ }
+
+
+	#nav 
+{
+	/* display: inline; */
+	position: fixed;
+	z-index: 1;
+	/* left: 40%; */
+	text-align: center;
+	top: 0%;
+	padding: 0;
+	width:95%;
+	}
+
+.nav{
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	position:absolute;
+	background-color: black;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+	overflow: hidden;
+	/* display: inline; */
+	vertical-align: top;
+	color:white
+}
+
+li {
+	display: inline;
+	text-align: center;
+}
+
+li a{
+	display: inline-block;
+	color:wheat;
+	padding: 8px 16px;
+	text-decoration: none;
+	border-radius: 20px;
+	font-weight: 600;
+	font-size: 14pt;
+	font-family: 'Times New Roman', Times, serif;
+}
+
+li a:hover{
+	background-color: #555;
+	color:goldenrod;
+}
+
+li a.active {
+	background-color: #555;
+	color:goldenrod;
+	
+}
+
+li a:hover:not(.active)	{
+	background-color: #555;
+	color:goldenrod;
+}
+
+
+.header-main-container {
+	position: absolute;
+	top: 25%;
+	left: 30%;
+	font-family: 'Playball', cursive;
+	font-weight: bolder;
+	color: white;
+}
+
+.welcome-font {
+	padding: 0;
+	margin: 0;
+	font-size: 65px;
+	text-align: center;
+	color:wheat;
+}
+
+.welcome-font1{
+	padding-top: 10px;
+    font-family: 'Playball', cursive;
+    color:black;
+	font-size: 60px;
+	text-align: center;
+}
+
+.welcome-font2{
+	padding-top: 20px;
+    font-family: 'Playball', cursive;
+    color:whitesmoke;
+	font-size: 35px;
+	text-align: center;
+}
+.contactusfont{
+    font-family: cursive;
+    color:wheat;
+	font-size: 23px;
+	text-align: left;
+}
+
+.aboutpageheading{
+	font-style: italic;
+    font-family:'Courier New', Courier, monospace;
+    color:whitesmoke;
+	font-size: 70px;
+	text-align: center;
+}
+
+.liveshowsheading{
+	font-style: italic;
+    font-family:'Courier New', Courier, monospace;
+    color:wheat;
+	font-size: 40px;
+	text-align: left;
+}
+.second-main-container {
+	top: 25%;
+	left: 30%;
+	position: absolute;
+	font-family: 'Playball', cursive;
+	font-weight: bolder;
+	color:wheat;
+}
+
+.second-container-font {
+	padding: 0;
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+	text-align: center; 
+	font-weight: bold;
+	color:wheat;
+}
+.second-container-font1 {
+	padding: 0;
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+	text-align: left; 
+	font-weight: bold;
+	color:black;
+	font-size: 40px;
+}
+.second-container-font2{
+	padding: 0;
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+	text-align: left; 
+	font-weight: bold;
+	color:wheat;
+	font-size: 40px;
+}
+.second-container-font3
+{
+	padding-top: 10px;
+	font-family: 'Times New Roman', Times, serif;
+	text-align: left; 
+	font-weight: bold;
+	color:wheat;
+	font-size: 40px;
+	color:wheat;
+}
+.second-container-font4
+{
+	font-style: italic;
+    font-family:'playball','cursive';
+    color:whitesmoke;
+	font-size: 60px;
+	text-align: left;
+}
+.second-container-font5
+{
+	padding: 50px;
+	margin: 20px;
+	font-family:'Times New Roman', Times, serif;
+	text-align: right; 
+	font-weight: bold;
+	color:wheat;
+	font: size 20px;
+	float:right;
+}
+.second-container-font6
+{
+	padding: 50px;
+	margin: 20px;
+	font-family:'Times New Roman', Times, serif;
+	text-align: right; 
+	font-weight: bold;
+	color:white;
+	font: size 70px;
+	float: right;
+}
+
+.second-container-font7
+{
+	font-family:'Times New Roman', Times, serif;
+	text-align: center; 
+	font-weight: bold;
+	color:black;
+	font-size:70px;
+}
+.second-container-font8
+{
+	padding-top: 30px;
+	font-family:'Times New Roman', Times, serif;
+	text-align: center; 
+	font-weight: bold;
+	color:beige;
+	font-size:50px;
+}
+
+.second-container-font1
+{
+	padding-bottom: 30px;
+	float: right;
+	font-family: 'Roboto', sans-serif;
+	text-align: center; 
+	font-weight: bold;
+	color:wheat;
+	font-size: 25px;
+	color:wheat;
+	font-family: 'Playball', cursive;
+}
+.fontsize-second1 {
+	font-size: 40px;
+	color:wheat;
+}
+
+.fontsize-second2 {
+	font-size: 25px;
+	color:wheat
+	;
+	font-family: 'Playball', cursive;
+}
+.Container {
+	width: 40%;
+	color: wheat;
+	align-content: center;
+	padding: 40px;
+	padding-top: 140px;
+	font-size: 35px;
+	float: right;
+
+  }
+  .Subscribe form {
+	z-index: 2;
+	left: 20px;
+	width: 420px;
+	height: 46px;
+	bottom: 25px;
+	overflow: hidden;
+	position: absolute;
+  }
+  .Subscribe {
+	height: 250px;
+	padding: 30px;
+	overflow: hidden;
+	position: relative;
+	border-radius: 6px;
+	margin-bottom: 20px;
+	font-family: 'Courier New', Courier, monospace;
+	width: 60%;
+  }
+  .inputbutton{
+    background-color:wheat;
+    border: none;
+    color:black;
+    padding: 10px 25px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+input[type=text] {
+	width: 50%;
+	height: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+  .ulsocial
+  {
+    margin: 3px;
+	float:right;
+	position: absolute;
+  }
+  .lisocial{
+	display:inline-block;
+	width: 50px;
+}
+.headingsub{
+	padding-top: 150px;
+    font-family: 'Playball', cursive;
+	font-size: 60px;
+	text-align: center;
+	color: red;
+}
+  

@@ -1,0 +1,125 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Microbrewery</title>
+	<link rel="stylesheet" href="css files/Brewery.css" type="text/css" />
+	<link href="https://fonts.googleapis.com/css?family=Playball" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	<header>
+		<div class="background-parallax1"></div>
+			<div id="nav"> 
+				<ul class="nav">
+					<li>
+						<a class="active" href="Brewery.html">Home</a>
+					</li>
+					<li>
+						<a href="#About">About</a>
+					</li>
+					<li>
+						<a href="#liveshows">Live shows </a>
+					</li>
+					<li>
+						<a href="#Contact">Contact</a>
+					</li>
+				</ul>
+			</div>
+	</header>	
+		<div class="header-main-container">
+			<p class="welcome-font">Microbrewery</p>
+			<p class="welcome-font">&</p>
+			<p class="welcome-font">Bar</p>        
+		</div>
+		<div class="backgroundpage2" id="About" >
+			<div class="divaboutpage">
+				<p class="aboutpageheading" >About</p>
+				<p class="second-container-font fontsize-second2">
+				    “In 2000, the foundation of Good Times was laid with the coming together of 5 breweries in South India. 
+					Today, our beer business has shown strong growth and we are the undisputed king of the Indian beer market.
+					Micro Breweries Limited is synonymous with innovation and aggressive marketing that is complemented by 
+					a strong distribution network which encompasses an impressive spread of owned and contract manufacturing facilities across the country"</p>
+			</div>
+		</div>
+				<div class="background4">
+					<p class="liveshowsheading" id="liveshows">Music</p>
+					<p class="second-container-font4">Next show :
+					 DJ Shaw</p>
+					<p class="liveshowsheading">Enjoy our live events
+					</p>
+				</div>
+					<div class="background5">
+						<div class="divbackground5">
+						<p class="welcome-font1">Crafted Beer Tuesday</p>
+						<p class="welcome-font2">"Altbier are ales first brewed in Cologne and Düsseldorf Germany. The name alt means “old” - 
+								suggesting that this brew had an older style to it, highlighting darker, woodier maltsAlts 
+								have a unique mineral spine that is associated with the water of the area, which makes it 
+								hard to reproduce in other geographic locations".</p>	
+						</div>
+					</div>					
+						<div class="background-parallax3"></div>
+						<div class="bookatable">
+								<form>
+									<div style="cursor: auto; padding-bottom: 18px;padding-top: 20px;   font-size : 40px; text-align: left; color: wheat;">Book a table</div>
+									<div style="display: flex; padding-bottom: 18px;width : 450px;">
+									<div style=" margin-left :0%; margin-right : 1%; width : 49%;font-size: 20px; cursor: pointer">First name<span style="color: red;"> *</span><br/>
+									<input type="text" id="data_2" name="data_2" style="width: 100%;border: 2px solid wheat;
+									border-radius: 10px; cursor: auto;" class="form-control"/>
+									</div>
+									<div style=" margin-left : 1%; margin-right : 0; width : 49%;font-size: 20px;">Last name<span style="color: red;"> *</span><br/>
+									<input type="text" id="data_3" name="data_3" style="width: 100%;border :2px solid wheat;
+									border-radius: 10px;" class="form-control"/>
+									</div>
+									</div><div style="padding-bottom: 10px;font-size: 20px;">Phone<span style="color: red;"> *</span><br/>
+									<input type="text" id="data_4" name="data_4" style="width : 220px; height: 13px;border :2px solid wheat;
+									border-radius: 10px;" class="form-control"/>
+									</div>
+									<div style="padding-bottom: 18px;font-size: 20px;">When<span style="color: red;"> *</span><br/>
+									<input type="text" id="data_6" name="data_6" style="width : 220px; height: 13px;border :2px solid wheat;
+									border-radius: 10px;" class="form-control"/>
+									<script src="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.4.0/pikaday.min.js" type="text/javascript"></script>
+									<link href="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.4.0/css/pikaday.min.css" rel="stylesheet" type="text/css" />
+									<script type="text/javascript">new Pikaday({ field: document.getElementById('data_6') });</script>
+									</div>
+									<div style="padding-bottom: 18px;font-size: 20px;">Table for :<br/>
+									<input type="number" id="data_9" name="data_9" style="width : 220px;border :2px solid wheat;
+									border-radius: 10px;" class="form-control;min='0'" max="4"/>
+									</div>
+									<div style="padding-bottom: 18px;font-size: 20px;">Additional requirements<br/>
+									<textarea id="data_10" false name="data_10" style="width : 450px;border : 2px solid wheat;
+									border-radius: 10px;" rows="6" class="form-control"></textarea>
+									</div>
+									<div style="padding-bottom: 20px;"><input name="skip_Submit" value="Submit" type="button" onclick="check()"/></div>
+										</form>
+									<img src="css files/images/pagethree.jpg" style="width : 40%;height : 500px;"></img>
+                        </div>
+						<div class="backgroundpage7">
+                         <div class="divbackground6" id="Contact">
+							 <p class="divcontactus">Contact us</p>
+							 <p class="contactusfont"> For any queries releated to
+							 <p class="contactusfont">parties, Kindly contact us on</p>
+							 <p class="contactusfont">Below address.</p><br>
+							 <p class="contactusfont">123-456-789 | info@mysite.com </p>
+						</div>
+						    <div class="Container">
+								<div class="Subscribe">
+								  <p>Subscribe to our newsletter</p>
+								  <form method="post" action="//submit.form" onSubmit="return validateForm();">
+									<input id="data_4" style=color:wheat  type="text" placeholder="Email Address" class="form-control" />
+									<button class="inputbutton">Subscribe</button>
+									
+								  </form>
+								  </div>
+								  
+								  <div>
+									<ul class="ulsocial">
+									  <li class="lisocial"><img src="https://svgshare.com/i/5fq.svg" width="35" style="width: 30px;"></li>
+									  <li class="lisocial"><img src="https://svgshare.com/i/5eA.svg" width="35" style="width: 30px;"></li>
+									  <li class="lisocial"><img src="https://svgshare.com/i/5f_.svg" width="35" style="width: 30px;"></li>
+									</ul>
+							</div>
+						</div>
+						<script src="/Controller/brewery.js" type="text/javascript"></script>
+				</body>
+</html>
